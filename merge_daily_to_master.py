@@ -62,8 +62,8 @@ def main():
 
     for path in daily_files:
         daily = load_json(path)
-        for v in daily.get("videos", []):
-            videos_by_id[v["id"]] = v  # 新しいもので上書き
+        for v in daily:
+            videos_by_id[v["id"]] = v
 
     # publish_at でフィルタ（直近 KEEP_DAYS のみ）
     filtered_videos = []
