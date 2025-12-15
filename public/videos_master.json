@@ -1,53 +1,58 @@
-[
-  {
-    "id": "AfFgqi5XKm0",
-    "thumbnail_url": "https://i.ytimg.com/vi/AfFgqi5XKm0/hqdefault.jpg",
-    "title": {
-      "en": "Jellyfish drift. A dog could never do that.",
-      "es": "Medusas: Flotar sin cerebro. Mi meta inalcanzable.",
-      "pt-BR": "Prof. Dog: Água-viva e o dom de flutuar. Eu não consigo."
+{
+  "updated_at": "2025-12-15",
+  "days": 7,
+  "count": 3,
+  "videos": [
+    {
+      "id": "Ydq3XnEXzgA",
+      "thumbnail_url": "https://i.ytimg.com/vi/Ydq3XnEXzgA/hqdefault.jpg",
+      "title": {
+        "en": "Clownfish: immunity a tired Shiba Inu only dreams of.",
+        "es": "Pez payaso: esa inmunidad que jamás tuve.",
+        "pt-BR": "Peixe-palhaço: a parceria que eu não tive."
+      },
+      "comment": {
+        "en": "These creatures possess such resilience; I mostly just possess coffee and a grading pile.",
+        "es": "¡Qué aguante! Yo, café y correcciones.",
+        "pt-BR": "Que resiliência! Eu? Só café e a correção."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-15T13:57:06.200950Z",
+      "created_at": "2025-12-15T04:49:14.626953Z"
     },
-    "comment": {
-      "en": "Observing them, I realize my own efforts often feel equally instinctive.",
-      "es": "Los míos, igual de instintivos, por lo visto.",
-      "pt-BR": "Meus esforços? São só instinto, também."
+    {
+      "id": "By_EqK6Fx2Q",
+      "thumbnail_url": "https://i.ytimg.com/vi/By_EqK6Fx2Q/hqdefault.jpg",
+      "title": {
+        "en": "Clownfish: Their sting immunity. A dog's impossible feat.",
+        "es": "Pez payaso: Su hogar inmune. Yo busco el mío.",
+        "pt-BR": "Peixe-palhaço: A parceria que este professor não teve."
+      },
+      "comment": {
+        "en": "It’s genuinely remarkable how some creatures just keep going, unlike my motivation.",
+        "es": "Qué aguante el de algunos. Mi empuje, en cambio...",
+        "pt-BR": "Impressiona como alguns seguem. Minha vontade, não."
+      },
+      "category": "animals",
+      "created_at": "2025-12-14T12:18:50.247542Z",
+      "publish_at": "2025-12-14T21:24:06.500927Z"
     },
-    "category": "animals",
-    "created_at": "2025-12-06T03:00:08.377902Z",
-    "publish_at": "2025-12-06T11:53:53.167664Z"
-  },
-  {
-    "id": "By_EqK6Fx2Q",
-    "thumbnail_url": "https://i.ytimg.com/vi/By_EqK6Fx2Q/hqdefault.jpg",
-    "title": {
-      "en": "Clownfish: Their sting immunity. A dog's impossible feat.",
-      "es": "Pez payaso: Su hogar inmune. Yo busco el mío.",
-      "pt-BR": "Peixe-palhaço: A parceria que este professor não teve."
-    },
-    "comment": {
-      "en": "It’s genuinely remarkable how some creatures just keep going, unlike my motivation.",
-      "es": "Qué aguante el de algunos. Mi empuje, en cambio...",
-      "pt-BR": "Impressiona como alguns seguem. Minha vontade, não."
-    },
-    "category": "animals",
-    "created_at": "2025-12-14T12:18:50.247542Z",
-    "publish_at": "2025-12-14T21:24:06.500927Z"
-  },
-  {
-    "id": "k9b-xR9lGrw",
-    "thumbnail_url": "https://i.ytimg.com/vi/k9b-xR9lGrw/hqdefault.jpg",
-    "title": {
-      "en": "Manta Ray's effortless glide: A social skill I lack.",
-      "es": "La mantarraya: Su vuelo en grupo. Una habilidad que me supera.",
-      "pt-BR": "Raia Manta: Agindo em grupo. Eu? Um suspiro."
-    },
-    "comment": {
-      "en": "One would think all this animal efficiency would rub off on me eventually.",
-      "es": "Uno pensaría que algo se me pegaría ya.",
-      "pt-BR": "Essa eficiência, era pra ter me pegado."
-    },
-    "category": "animals",
-    "created_at": "2025-12-09T05:08:09.291186Z",
-    "publish_at": "2025-12-10T00:07:00Z"
-  }
-]
+    {
+      "id": "k9b-xR9lGrw",
+      "thumbnail_url": "https://i.ytimg.com/vi/k9b-xR9lGrw/hqdefault.jpg",
+      "title": {
+        "en": "Manta Ray's effortless glide: A social skill I lack.",
+        "es": "La mantarraya: Su vuelo en grupo. Una habilidad que me supera.",
+        "pt-BR": "Raia Manta: Agindo em grupo. Eu? Um suspiro."
+      },
+      "comment": {
+        "en": "One would think all this animal efficiency would rub off on me eventually.",
+        "es": "Uno pensaría que algo se me pegaría ya.",
+        "pt-BR": "Essa eficiência, era pra ter me pegado."
+      },
+      "category": "animals",
+      "created_at": "2025-12-09T05:08:09.291186Z",
+      "publish_at": "2025-12-10T00:07:00Z"
+    }
+  ]
+}
