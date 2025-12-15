@@ -2,8 +2,8 @@ name: Daily merge videos json
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # US Eastern 0:00（夏時間想定）
-  workflow_dispatch: {}
+    - cron: "0 4 * * *"
+  workflow_dispatch:
 
 jobs:
   merge:
@@ -19,14 +19,12 @@ jobs:
           python-version: "3.12"
 
       - name: Run merge script
-        run: |
-          python merge_daily_to_master.py
+        run: python merge_daily_to_master.py
 
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-
           git add public/videos_master.json
           git diff --cached --quiet || git commit -m "auto: update videos_master.json"
           git push
