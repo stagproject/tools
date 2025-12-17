@@ -1,7 +1,7 @@
 {
-  "updated_at": "2025-12-16",
+  "updated_at": "2025-12-17",
   "days": 7,
-  "count": 3,
+  "count": 2,
   "videos": [
     {
       "id": "Ydq3XnEXzgA",
@@ -36,23 +36,6 @@
       "category": "animals",
       "created_at": "2025-12-14T12:18:50.247542Z",
       "publish_at": "2025-12-14T21:24:06.500927Z"
-    },
-    {
-      "id": "k9b-xR9lGrw",
-      "thumbnail_url": "https://i.ytimg.com/vi/k9b-xR9lGrw/hqdefault.jpg",
-      "title": {
-        "en": "Manta Ray's effortless glide: A social skill I lack.",
-        "es": "La mantarraya: Su vuelo en grupo. Una habilidad que me supera.",
-        "pt-BR": "Raia Manta: Agindo em grupo. Eu? Um suspiro."
-      },
-      "comment": {
-        "en": "One would think all this animal efficiency would rub off on me eventually.",
-        "es": "Uno pensaría que algo se me pegaría ya.",
-        "pt-BR": "Essa eficiência, era pra ter me pegado."
-      },
-      "category": "animals",
-      "created_at": "2025-12-09T05:08:09.291186Z",
-      "publish_at": "2025-12-10T00:07:00Z"
     }
   ]
 }
