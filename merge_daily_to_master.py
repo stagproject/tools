@@ -69,7 +69,12 @@ def main():
 
     for path in daily_files:
         daily = load_json(path)
-        for v in daily:
+        if isinstance(daily, list):
+            daily_videos = daily
+        else:
+            daily_videos = daily.get("videos", [])
+
+        for v in daily_videos:
             videos_by_id[v["id"]] = v
 
     # publish_at でフィルタ（直近 KEEP_DAYS のみ）
