@@ -1,40 +1,45 @@
-name: Daily Merge to Master
+name: Daily Merge
 
 on:
   schedule:
-    - cron: "0 18 * * *"   # 例: JST 03:00
+    - cron: "0 0 * * *"   # 1日1回
   workflow_dispatch:
+
+# ★ これが無いと push できない
+permissions:
+  contents: write
 
 jobs:
   merge:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout daily-input
+      - name: Checkout repository (main)
         uses: actions/checkout@v4
         with:
           ref: main
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
+      # ★ git の author 未設定問題を解決
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Run merge script
-        env:
-          DAILY_JSON_DIR: daily_videos
-          MASTER_JSON_PATH: public/videos_master.json
-          KEEP_DAYS: "7"
-        run: |
-          python merge_daily_to_master.py
+        run: python merge_daily_to_master.py
 
-      - name: Switch to main branch
+      # ★ 生成物があれば commit & push
+      - name: Commit and push if changed
         run: |
-          git checkout main
-
-      - name: Commit and push master json
-        run: |
-          git add public/videos_master.json
-          git commit -m "update videos_master.json (daily merge)" || echo "no changes"
-          git push
+          if git status --porcelain | grep .; then
+            git add public/videos_master.json
+            git commit -m "chore: update videos_master.json"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
