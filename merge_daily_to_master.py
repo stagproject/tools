@@ -75,7 +75,13 @@ def main():
             daily_videos = daily.get("videos", [])
 
         for v in daily_videos:
-            videos_by_id[v["id"]] = v
+            if not isinstance(v, dict):
+                continue
+            vid = v.get("id")
+            if not vid:
+                continue
+            videos_by_id[vid] = v
+
 
     # publish_at でフィルタ（直近 KEEP_DAYS のみ）
     filtered_videos = []
