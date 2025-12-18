@@ -59,7 +59,13 @@ def main():
             master_videos = master.get("videos", [])
 
         for v in master_videos:
-            videos_by_id[v["id"]] = v
+            if not isinstance(v, dict):
+                continue
+            vid = v.get("id")
+            if not vid:
+                continue
+            videos_by_id[vid] = v
+
 
 
     # daily json を全読み込み
