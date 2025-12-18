@@ -13,7 +13,7 @@ jobs:
       - name: Checkout daily-input
         uses: actions/checkout@v4
         with:
-          ref: daily-input
+          ref: main
           fetch-depth: 0
 
       - name: Set up Python
