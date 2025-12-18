@@ -1,11 +1,8 @@
-name: Daily merge videos json
-permissions:
-  contents: write
-
+name: Daily Merge to Master
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 18 * * *"   # 例: JST 03:00
   workflow_dispatch:
 
 jobs:
@@ -13,19 +10,31 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout daily-input
+        uses: actions/checkout@v4
+        with:
+          ref: daily-input
+          fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      - name: Run merge
-        run: python merge_daily_to_master.py
-
-      - name: Commit and push if changed
+      - name: Run merge script
+        env:
+          DAILY_JSON_DIR: daily_videos
+          MASTER_JSON_PATH: public/videos_master.json
+          KEEP_DAYS: "7"
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
+          python merge_daily_to_master.py
+
+      - name: Switch to main branch
+        run: |
+          git checkout main
+
+      - name: Commit and push master json
+        run: |
           git add public/videos_master.json
-          git diff --cached --quiet || git commit -m "auto: update videos_master.json"
+          git commit -m "update videos_master.json (daily merge)" || echo "no changes"
           git push
