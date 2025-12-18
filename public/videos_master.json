@@ -1,8 +1,178 @@
 {
-  "updated_at": "2025-12-15",
+  "updated_at": "2025-12-18",
   "days": 7,
-  "count": 3,
+  "count": 12,
   "videos": [
+    {
+      "id": "G2mnWIMAo38",
+      "thumbnail_url": "https://i.ytimg.com/vi/G2mnWIMAo38/hqdefault.jpg",
+      "title": {
+        "en": "Iguana: Peaceful herbivores. I couldn't manage that calm.",
+        "es": "Iguana: La calma que me evade.",
+        "pt-BR": "A iguana, serena. Onde eu só penso demais."
+      },
+      "comment": {
+        "en": "The pursuit of knowledge always seems to outlast my energy reserves.",
+        "es": "El saber siempre persiste; mi energía, no tanto.",
+        "pt-BR": "A busca... Minha energia sempre cede antes."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-19T17:46:00Z",
+      "created_at": "2025-12-18T05:08:15.594427Z"
+    },
+    {
+      "id": "W96JuUhhwMg",
+      "thumbnail_url": "https://i.ytimg.com/vi/W96JuUhhwMg/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: Its endless hunt. A dog just sighs.",
+        "es": "Colibrí: Su búsqueda incesante... qué agotador.",
+        "pt-BR": "Beija-flor: Pique assim, professor Shiba não tem."
+      },
+      "comment": {
+        "en": "They seem to navigate life's challenges with far less administrative overhead.",
+        "es": "Qué fácil lo tienen, sin tanto trámite.",
+        "pt-BR": "Para eles, a vida tem menos papelada."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-19T12:05:00Z",
+      "created_at": "2025-12-18T04:54:08.980959Z"
+    },
+    {
+      "id": "q1BOuXYfODM",
+      "thumbnail_url": "https://i.ytimg.com/vi/q1BOuXYfODM/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: Sustained energy. A skill this dog never mastered.",
+        "es": "Colibrí: Esa energía... yo ya ni la busco.",
+        "pt-BR": "Beija-flor: Essa energia na busca? Eu jamais."
+      },
+      "comment": {
+        "en": "My attempts at teaching often feel more complicated than a cheetah catching dinner.",
+        "es": "Enseñar, más difícil que cazar para un guepardo.",
+        "pt-BR": "Minha didática? Mais complicada que um guepardo caçando."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-19T05:47:00Z",
+      "created_at": "2025-12-18T04:37:36.471965Z"
+    },
+    {
+      "id": "MxMn7GqdBzQ",
+      "thumbnail_url": "https://i.ytimg.com/vi/MxMn7GqdBzQ/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird's energy: this dog's lesson in futility.",
+        "es": "Colibrí: La energía que a uno le escasea.",
+        "pt-BR": "Beija-flor: A busca que o Shiba não tem."
+      },
+      "comment": {
+        "en": "I teach them about survival, yet I'm still figuring out my own lunch break.",
+        "es": "Enseño a sobrevivir. Mi almuerzo, ay, aún lo veo.",
+        "pt-BR": "Ensino sobre sobreviver. Meu almoço? Ainda vejo."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-19T00:00:00Z",
+      "created_at": "2025-12-18T04:17:25.320370Z"
+    },
+    {
+      "id": "ovMV7k8cMdk",
+      "thumbnail_url": "https://i.ytimg.com/vi/ovMV7k8cMdk/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: Relentless search for energy. I envy that drive.",
+        "es": "Colibrí: esa energía que yo nunca tuve.",
+        "pt-BR": "Beija-flor: Esse metabolismo... eu nem tentaria."
+      },
+      "comment": {
+        "en": "Such natural order exists out there, a concept I rarely encounter.",
+        "es": "Qué orden natural. Qué lejos de mí.",
+        "pt-BR": "Ordem natural, que coisa. Não é bem meu forte."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-18T13:07:09.781504Z",
+      "created_at": "2025-12-18T04:08:30.025133Z"
+    },
+    {
+      "id": "lRpVAjnW2QY",
+      "thumbnail_url": "https://i.ytimg.com/vi/lRpVAjnW2QY/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: Seeking energy with a zeal this dog lacks.",
+        "es": "Colibrí: su búsqueda sin fin. Yo, sin aliento.",
+        "pt-BR": "Beija-flor e sua busca incansável: algo que eu não faria."
+      },
+      "comment": {
+        "en": "Another day teaching about survival; frankly, I'm just surviving the period.",
+        "es": "Otro día de supervivencia; la mía, ahora.",
+        "pt-BR": "Mais um dia de sobrevivência. A minha, neste período."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-17T23:50:00Z",
+      "created_at": "2025-12-16T15:30:15.495169Z"
+    },
+    {
+      "id": "mclJahNTaYU",
+      "thumbnail_url": "https://i.ytimg.com/vi/mclJahNTaYU/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird's energy hunt. Something I'd never sustain.",
+        "es": "Colibrí: Su búsqueda. Yo ya me rendí.",
+        "pt-BR": "O beija-flor e sua energia. Eu jamais teria."
+      },
+      "comment": {
+        "en": "Another day, another instinct I've yet to properly master myself.",
+        "es": "Otro día, otro instinto... sin dominar, claro.",
+        "pt-BR": "É, mais um dia. E eu... ainda no fundamental."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-17T17:49:00Z",
+      "created_at": "2025-12-16T15:21:29.971032Z"
+    },
+    {
+      "id": "NbMAeeY4Rwk",
+      "thumbnail_url": "https://i.ytimg.com/vi/NbMAeeY4Rwk/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: That constant seeking. A dog's metabolism couldn't.",
+        "es": "Colibrí: Su búsqueda de energía es mi asignatura pendiente.",
+        "pt-BR": "Beija-flor: essa busca por energia me exausta."
+      },
+      "comment": {
+        "en": "It's fascinating how nature resolves conflict while I'm still searching for my chalk.",
+        "es": "Fascinante la naturaleza. Yo, aún con mi tiza.",
+        "pt-BR": "A natureza se resolve. Eu? Procurando meu giz."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-17T11:56:00Z",
+      "created_at": "2025-12-16T15:12:46.673129Z"
+    },
+    {
+      "id": "8pODONGh7qE",
+      "thumbnail_url": "https://i.ytimg.com/vi/8pODONGh7qE/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbird: Sustaining that energy. A dog simply couldn't.",
+        "es": "Colibrí: Su ritmo de vida. Algo que yo jamás haría.",
+        "pt-BR": "Beija-flor: essa busca de energia que eu não teria."
+      },
+      "comment": {
+        "en": "Nature's logic often makes more sense than my lesson plans by Friday afternoon.",
+        "es": "La naturaleza es más sensata que mis planes del viernes.",
+        "pt-BR": "Na sexta, a natureza faz mais sentido que eu."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-17T06:11:00Z",
+      "created_at": "2025-12-16T15:08:00.226788Z"
+    },
+    {
+      "id": "5ce7Yuc8FgY",
+      "thumbnail_url": "https://i.ytimg.com/vi/5ce7Yuc8FgY/hqdefault.jpg",
+      "title": {
+        "en": "Hummingbirds: A dog's pace could never match that.",
+        "es": "El colibrí no descansa. Yo, sí. Demasiado.",
+        "pt-BR": "Beija-flor: Uma busca que me esgota só de ver."
+      },
+      "comment": {
+        "en": "One might think I'd learn from these natural strategies, but I just grade papers.",
+        "es": "Uno creería que aprendería. Solo reviso trabajos.",
+        "pt-BR": "Devia aprender, mas só corrijo provas."
+      },
+      "category": "animals",
+      "publish_at": "2025-12-17T00:03:59.999497Z",
+      "created_at": "2025-12-16T14:59:35.471510Z"
+    },
     {
       "id": "Ydq3XnEXzgA",
       "thumbnail_url": "https://i.ytimg.com/vi/Ydq3XnEXzgA/hqdefault.jpg",
@@ -36,23 +206,6 @@
       "category": "animals",
       "created_at": "2025-12-14T12:18:50.247542Z",
       "publish_at": "2025-12-14T21:24:06.500927Z"
-    },
-    {
-      "id": "k9b-xR9lGrw",
-      "thumbnail_url": "https://i.ytimg.com/vi/k9b-xR9lGrw/hqdefault.jpg",
-      "title": {
-        "en": "Manta Ray's effortless glide: A social skill I lack.",
-        "es": "La mantarraya: Su vuelo en grupo. Una habilidad que me supera.",
-        "pt-BR": "Raia Manta: Agindo em grupo. Eu? Um suspiro."
-      },
-      "comment": {
-        "en": "One would think all this animal efficiency would rub off on me eventually.",
-        "es": "Uno pensaría que algo se me pegaría ya.",
-        "pt-BR": "Essa eficiência, era pra ter me pegado."
-      },
-      "category": "animals",
-      "created_at": "2025-12-09T05:08:09.291186Z",
-      "publish_at": "2025-12-10T00:07:00Z"
     }
   ]
 }
