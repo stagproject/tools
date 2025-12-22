@@ -1,7 +1,7 @@
 {
-  "updated_at": "2025-12-21",
+  "updated_at": "2025-12-22",
   "days": 7,
-  "count": 12,
+  "count": 11,
   "videos": [
     {
       "id": "G2mnWIMAo38",
@@ -189,23 +189,6 @@
       "category": "animals",
       "publish_at": "2025-12-15T13:57:06.200950Z",
       "created_at": "2025-12-15T04:49:14.626953Z"
-    },
-    {
-      "id": "By_EqK6Fx2Q",
-      "thumbnail_url": "https://i.ytimg.com/vi/By_EqK6Fx2Q/hqdefault.jpg",
-      "title": {
-        "en": "Clownfish: Their sting immunity. A dog's impossible feat.",
-        "es": "Pez payaso: Su hogar inmune. Yo busco el mío.",
-        "pt-BR": "Peixe-palhaço: A parceria que este professor não teve."
-      },
-      "comment": {
-        "en": "It’s genuinely remarkable how some creatures just keep going, unlike my motivation.",
-        "es": "Qué aguante el de algunos. Mi empuje, en cambio...",
-        "pt-BR": "Impressiona como alguns seguem. Minha vontade, não."
-      },
-      "category": "animals",
-      "created_at": "2025-12-14T12:18:50.247542Z",
-      "publish_at": "2025-12-14T21:24:06.500927Z"
     }
   ]
 }
