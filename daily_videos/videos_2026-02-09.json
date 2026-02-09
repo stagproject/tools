@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-02-09",
+  "days": 1,
+  "count": 1,
+  "videos": [
+    {
+      "id": "oLvLrO2mPJ8",
+      "thumbnail_url": "https://i.ytimg.com/vi/oLvLrO2mPJ8/hqdefault.jpg",
+      "title": {
+        "en": "Guess my food can wait.",
+        "es": "My food’s cold again. Knew it.",
+        "pt-BR": "My food's cold. Deserved it."
+      },
+      "comment": {
+        "en": "Nature’s efficiency often makes my own multi-tasking feel rather…inept.",
+        "es": "La naturaleza me hace ver... torpe.",
+        "pt-BR": "Natureza eficiente. Meu esforço é meio... assim."
+      },
+      "category": "modernlife",
+      "publish_at": "2026-02-10T00:43:13.716872Z",
+      "created_at": "2026-02-09T15:40:10.966710Z"
+    }
+  ]
+}
