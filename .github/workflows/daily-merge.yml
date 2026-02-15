@@ -2,10 +2,9 @@ name: Daily Merge
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # 1日1回
+    - cron: "0 18 * * *"   # 日本時間 03:00
   workflow_dispatch:
 
-# ★ これが無いと push できない
 permissions:
   contents: write
 
@@ -18,24 +17,21 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
-      # ★ git の author 未設定問題を解決
-      - name: Configure git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
       - name: Run merge script
         run: python merge_daily_to_master.py
 
-      # ★ 生成物があれば commit & push
-      - name: Commit and push if changed
+      # toolsリポジトリ自身の更新（もし必要なら）
+      - name: Commit and push tools repo
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           if git status --porcelain | grep .; then
             git add public/videos_master.json
             git commit -m "chore: update videos_master.json"
@@ -43,14 +39,16 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      # Mireliaリポジトリへの転送（ここを修正しました）
       - name: Push videos_master.json to Mirelia repo
-        uses: cpina/github-action-push-to-another-repo@main
+        uses: cpina/github-action-push-to-another-repo@v1.7.2
         env:
           SSH_PRIVATE_KEY: ${{ secrets.MIRELIA_DEPLOY_KEY }}
         with:
           source-files: 'public/videos_master.json'
-          destination-repo: 'stagproject/Mirelia'
-          destination-branch: 'main'
+          destination-github-username: 'stagproject'
+          destination-repository-name: 'Mirelia'
+          target-branch: 'main'
           commit-message: 'Update videos_master.json (daily merge)'
           user-email: 'github-actions[bot]@users.noreply.github.com'
-          user-name: 'github-actions[bot]'
