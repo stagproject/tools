@@ -17,7 +17,7 @@ MASTER_JSON_PATH = os.environ.get(
     "public/videos_master.json"
 )
 
-KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "7"))
+KEEP_DAYS = int(os.environ.get("KEEP_DAYS", "8"))
 
 # =========================
 # ユーティリティ
