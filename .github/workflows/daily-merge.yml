@@ -32,28 +32,13 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Mireliaリポジトリへ直接転送（SSHを使用）
-      - name: Push to Mirelia repo
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.MIRELIA_DEPLOY_KEY }}
+      # --- 修正箇所：このリポジトリ自身に反映させる処理に変更 ---
+      - name: Commit and Push to this repo
         run: |
-          mkdir -p ~/.ssh
-          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          
-          # Mireliaを一時フォルダにクローン
-          git clone git@github.com:stagproject/Mirelia.git mirelia_temp
-          
-          # 生成されたファイルをMirelia側のフォルダへコピー
-          cp public/videos_master.json mirelia_temp/public/
-          
-          # Mirelia側で変更があればコミット＆プッシュ
-          cd mirelia_temp
           git add public/videos_master.json
           if git diff --staged --quiet; then
             echo "No changes in videos_master.json"
           else
-            git commit -m "Update videos_master.json from tools [skip ci]"
-            git push origin master
+            git commit -m "Update videos_master.json [skip ci]"
+            git push origin main
           fi
