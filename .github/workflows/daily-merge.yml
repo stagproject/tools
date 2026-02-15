@@ -43,3 +43,14 @@ jobs:
           else
             echo "No changes to commit"
           fi
+      - name: Push videos_master.json to Mirelia repo
+        uses: cpina/github-action-push-to-another-repo@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.MIRELIA_DEPLOY_KEY }}
+        with:
+          source-files: 'public/videos_master.json'
+          destination-repo: 'stagproject/Mirelia'
+          destination-branch: 'main'
+          commit-message: 'Update videos_master.json (daily merge)'
+          user-email: 'github-actions[bot]@users.noreply.github.com'
+          user-name: 'github-actions[bot]'

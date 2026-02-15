@@ -1,0 +1,125 @@
+{
+  "updated_at": "2026-01-15",
+  "days": 1,
+  "count": 7,
+  "videos": [
+    {
+      "id": "_VpGIeTlx7c",
+      "thumbnail_url": "https://i.ytimg.com/vi/_VpGIeTlx7c/hqdefault.jpg",
+      "title": {
+        "en": "Here are five titles, adhering to all the specified rules:",
+        "es": "Here are some titles generated according to your rules, using the implied theme of \"the futility, tedium, or misery of everyday life/work\" to fit the speaker's twisted, cynical, self-deprecating inner monologue:",
+        "pt-BR": "Here are five titles based on your rules:"
+      },
+      "comment": {
+        "en": "The sheer tenacity of some creatures makes my own daily persistence feel, well, inadequate.",
+        "es": "Mucha tenacidad ajena me hace sentir poca cosa.",
+        "pt-BR": "Minha persistência? Perto de alguns, é pouco."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-15T21:53:50.728950Z",
+      "created_at": "2026-01-15T12:46:26.746855Z"
+    },
+    {
+      "id": true,
+      "thumbnail_url": "https://i.ytimg.com/vi/True/hqdefault.jpg",
+      "title": {
+        "en": "Here are some titles designed to meet your criteria:",
+        "es": "To generate titles, I need the specific \"theme\" that each title must implicitly include. The prompt states: \"Each title must include the theme\" and \"The theme must appear implicitly through the situation.\"",
+        "pt-BR": "Okay, I understand the rules completely. I am ready to generate titles that fit all the specified criteria, including the implicit inclusion of a theme once it is provided."
+      },
+      "comment": {
+        "en": "Even the most diligent creature eventually needs a quiet moment, I hope.",
+        "es": "Hasta uno necesita un respiro, espero.",
+        "pt-BR": "Até eu preciso de um sossego, espero."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-16T05:48:00Z",
+      "created_at": "2026-01-15T14:59:23.138350Z"
+    },
+    {
+      "id": "gVduZmBSKDM",
+      "thumbnail_url": "https://i.ytimg.com/vi/gVduZmBSKDM/hqdefault.jpg",
+      "title": {
+        "en": "Here are some titles designed to meet all your criteria:",
+        "es": "Here are some titles designed to meet your criteria:",
+        "pt-BR": "Here are 5 titles following all the rules:"
+      },
+      "comment": {
+        "en": "I sometimes envy their uncomplicated lives, free from endless faculty meetings.",
+        "es": "A uno le gustaría su sencillez, sin tanta reunión.",
+        "pt-BR": "Ah, essa vida sem reuniões intermináveis..."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-16T11:58:00Z",
+      "created_at": "2026-01-15T15:25:18.365938Z"
+    },
+    {
+      "id": "J9GiSToLZdw",
+      "thumbnail_url": "https://i.ytimg.com/vi/J9GiSToLZdw/hqdefault.jpg",
+      "title": {
+        "en": "Here are ten titles generated according to your rules:",
+        "es": "Please provide the theme you would like me to incorporate into the titles. I will then generate them according to all the specified rules.",
+        "pt-BR": "Here are five titles generated according to your rules:"
+      },
+      "comment": {
+        "en": "You'd think observing such resilience would rub off, but here we are.",
+        "es": "Uno cree que contagia, pero así estamos.",
+        "pt-BR": "Era de se esperar que pegasse. Mas aqui estamos."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-16T18:12:00Z",
+      "created_at": "2026-01-15T15:42:28.091845Z"
+    },
+    {
+      "id": "lAXICvUazq8",
+      "thumbnail_url": "https://i.ytimg.com/vi/lAXICvUazq8/hqdefault.jpg",
+      "title": {
+        "en": "Starting my break. Time to dread going back.",
+        "es": "Okay, I understand the common rules for title generation. I'm ready for the specific theme you'd like me to incorporate implicitly."
+      },
+      "comment": {
+        "en": "I often wish my instincts were half as reliable as theirs seem to be.",
+        "es": "Ya quisiera yo su tino.",
+        "pt-BR": "Meu faro? Queria fosse como o deles."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-17T00:05:00Z",
+      "created_at": "2026-01-15T15:52:11.091141Z"
+    },
+    {
+      "id": "7kkTTWtfV0A",
+      "thumbnail_url": "https://i.ytimg.com/vi/7kkTTWtfV0A/hqdefault.jpg",
+      "title": {
+        "en": "Sat down. Now I have to get up.",
+        "es": "My food's cold. At least it's consistent.",
+        "pt-BR": "My food's getting cold, naturally."
+      },
+      "comment": {
+        "en": "Some creatures just instinctively know when it's time to disappear for a while.",
+        "es": "Uno sabe cuándo toca retirarse ya.",
+        "pt-BR": "Tem bicho que só sabe sumir, né?"
+      },
+      "category": "rules",
+      "publish_at": "2026-01-17T06:06:00Z",
+      "created_at": "2026-01-15T16:04:42.905699Z"
+    },
+    {
+      "id": "9ksKdh024Vs",
+      "thumbnail_url": "https://i.ytimg.com/vi/9ksKdh024Vs/hqdefault.jpg",
+      "title": {
+        "en": "My food's getting cold. Perfect.",
+        "es": "Oh, my food's cold. Knew it.",
+        "pt-BR": "My break starts. Now what's broken?"
+      },
+      "comment": {
+        "en": "These creatures have such clear goals; mine seem to multiply nightly.",
+        "es": "Sus metas son tan claras. Las mías, un lío nocturno.",
+        "pt-BR": "Que objetivos claros. Os meus só brotam."
+      },
+      "category": "rules",
+      "publish_at": "2026-01-17T11:59:00Z",
+      "created_at": "2026-01-15T16:21:15.080177Z"
+    }
+  ]
+}
