@@ -27,28 +27,33 @@ jobs:
       - name: Run merge script
         run: python merge_daily_to_master.py
 
-      # toolsリポジトリ自身の更新（もし必要なら）
-      - name: Commit and push tools repo
+      - name: Configure git
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          if git status --porcelain | grep .; then
-            git add public/videos_master.json
-            git commit -m "chore: update videos_master.json"
-            git push origin main
-          else
-            echo "No changes to commit"
-          fi
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      # Mireliaリポジトリへの転送（ここを修正しました）
-      - name: Push videos_master.json to Mirelia repo
-        uses: cpina/github-action-push-to-another-repo@v1.7.2
+      # Mireliaリポジトリへ直接転送（SSHを使用）
+      - name: Push to Mirelia repo
         env:
           SSH_PRIVATE_KEY: ${{ secrets.MIRELIA_DEPLOY_KEY }}
-        with:
-          source-files: 'public/videos_master.json'
-          destination-github-username: 'stagproject'
-          destination-repository-name: 'Mirelia'
-          target-branch: 'main'
-          commit-message: 'Update videos_master.json (daily merge)'
-          user-email: 'github-actions[bot]@users.noreply.github.com'
+        run: |
+          mkdir -p ~/.ssh
+          echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          
+          # Mireliaを一時フォルダにクローン
+          git clone git@github.com:stagproject/Mirelia.git mirelia_temp
+          
+          # 生成されたファイルをMirelia側のフォルダへコピー
+          cp public/videos_master.json mirelia_temp/public/
+          
+          # Mirelia側で変更があればコミット＆プッシュ
+          cd mirelia_temp
+          git add public/videos_master.json
+          if git diff --staged --quiet; then
+            echo "No changes in videos_master.json"
+          else
+            git commit -m "Update videos_master.json from tools [skip ci]"
+            git push origin main
+          fi
