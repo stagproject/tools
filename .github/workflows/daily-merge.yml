@@ -55,5 +55,6 @@ jobs:
             echo "No changes in videos_master.json"
           else
             git commit -m "Update videos_master.json from tools [skip ci]"
-            git push origin main
+            git push origin master
           fi
+
