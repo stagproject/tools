@@ -77,7 +77,7 @@ def main():
     # --- 作業ブランチを触る前に clean な状態を保証 ---
     run_git(["fetch", "origin"])
     run_git(["checkout", TARGET_BRANCH])
-    run_git(["reset", "--hard", f"origin/{TARGET_BRANCH}"])
+
 
     # --- JSON 読み込み ---
     new_payload = load_json_safe(src)
