@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-17",
+  "updated_at": "2026-02-18",
   "days": 8,
-  "count": 76,
+  "count": 74,
   "videos": [
     {
       "id": "iYndwyLm3zI",
@@ -1016,40 +1016,6 @@
       "category": "behavior",
       "publish_at": "2026-02-10T18:05:00Z",
       "created_at": "2026-02-09T16:00:32.087980Z"
-    },
-    {
-      "id": "YssJ_R-M4Es",
-      "thumbnail_url": "https://i.ytimg.com/vi/YssJ_R-M4Es/hqdefault.jpg",
-      "title": {
-        "en": "Starting my break. Just another countdown.",
-        "es": "Still here. Of course I am.",
-        "pt-BR": "My food's cold again. Figures."
-      },
-      "comment": {
-        "en": "They seem to get more done with less effort than I manage most mornings.",
-        "es": "Parecen rendir más con menos esfuerzo que yo.",
-        "pt-BR": "Eles rendem mais com menos. Eu, sou... eu."
-      },
-      "category": "illusion",
-      "publish_at": "2026-02-10T11:59:00Z",
-      "created_at": "2026-02-09T15:49:17.654671Z"
-    },
-    {
-      "id": "oLvLrO2mPJ8",
-      "thumbnail_url": "https://i.ytimg.com/vi/oLvLrO2mPJ8/hqdefault.jpg",
-      "title": {
-        "en": "Guess my food can wait.",
-        "es": "My food’s cold again. Knew it.",
-        "pt-BR": "My food's cold. Deserved it."
-      },
-      "comment": {
-        "en": "Nature’s efficiency often makes my own multi-tasking feel rather…inept.",
-        "es": "La naturaleza me hace ver... torpe.",
-        "pt-BR": "Natureza eficiente. Meu esforço é meio... assim."
-      },
-      "category": "modernlife",
-      "publish_at": "2026-02-10T00:43:13.716872Z",
-      "created_at": "2026-02-09T15:40:10.966710Z"
     }
   ]
 }
