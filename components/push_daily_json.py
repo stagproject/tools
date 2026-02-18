@@ -12,7 +12,6 @@ TOOLS_DIR = r"C:\AGS\tools"
 TOOLS_DAILY_DIR = os.path.join(TOOLS_DIR, "daily_videos")
 
 TARGET_BRANCH = "main"
-
 # ============================================================
 # utils
 # ============================================================

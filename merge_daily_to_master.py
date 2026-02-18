@@ -119,6 +119,20 @@ def main():
     print(f"[OK] master updated: {MASTER_JSON_PATH}")
     print(f"[INFO] videos count: {len(filtered_videos)}")
 
+    # --- 古い daily json ファイルを物理削除する処理を追加 ---
+    for path in daily_files:
+        try:
+            # ファイル名から日付を抽出 (videos_YYYY-MM-DD.json)
+            file_date_str = os.path.basename(path).replace("videos_", "").replace(".json", "")
+            file_date = datetime.strptime(file_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+            
+            # カットオフより古いファイルは削除
+            if file_date < cutoff:
+                os.remove(path)
+                print(f"[DELETE] Old daily file removed: {path}")
+        except Exception as e:
+            print(f"[WARN] Failed to delete {path}: {e}")
+
 
 if __name__ == "__main__":
     main()
