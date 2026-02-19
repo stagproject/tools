@@ -108,8 +108,13 @@ def main():
     run_git(["add", f"daily_videos/{filename}"])
 
     if not git_has_staged_changes():
-        print("[INFO] no staged git changes")
-        return
+            print("[INFO] No new staged changes. Checking for unpushed commits...")
+            try:
+                run_git(["push", "origin", TARGET_BRANCH])
+                print("[OK] Push attempt finished.")
+            except:
+                print("[SKIP] Nothing to push.")
+            return
 
     run_git(["commit", "-m", f"update daily videos json: {filename}"])
     run_git(["push", "origin", TARGET_BRANCH])
