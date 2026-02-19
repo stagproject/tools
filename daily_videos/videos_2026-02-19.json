@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-02-19",
+  "days": 1,
+  "count": 1,
+  "videos": [
+    {
+      "id": "KGsKbgzlJiQ",
+      "thumbnail_url": "https://i.ytimg.com/vi/KGsKbgzlJiQ/hqdefault.jpg",
+      "title": {
+        "en": "The stagecraft of my own smile.",
+        "es": "La pantomima de sonreír.",
+        "pt-BR": "A Exaustão de Sorrisos Ensaidos"
+      },
+      "comment": " ",
+      "category": "rules",
+      "publish_at": "2026-02-20T10:12:29.174803Z",
+      "created_at": "2026-02-19T01:23:50.055686Z"
+    }
+  ]
+}
