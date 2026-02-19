@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-18",
+  "updated_at": "2026-02-19",
   "days": 8,
-  "count": 74,
+  "count": 72,
   "videos": [
     {
       "id": "iYndwyLm3zI",
@@ -982,40 +982,6 @@
       "category": "unspokenrules",
       "publish_at": "2026-02-11T17:13:53.941405Z",
       "created_at": "2026-02-11T08:20:55.564115Z"
-    },
-    {
-      "id": "0SJ9jqBlfeo",
-      "thumbnail_url": "https://i.ytimg.com/vi/0SJ9jqBlfeo/hqdefault.jpg",
-      "title": {
-        "en": "Still here. Why?",
-        "es": "Past quitting time. My mistake, I guess.",
-        "pt-BR": "Shift's starting. Guess I'll ruin something."
-      },
-      "comment": {
-        "en": "Survival often depends on adaptability, a skill I'm still developing with this tech.",
-        "es": "Hay que adaptarse. Con esto, aún me adapto.",
-        "pt-BR": "A gente se adapta. Ainda apanho com a tecnologia."
-      },
-      "category": "habits",
-      "publish_at": "2026-02-11T00:01:00Z",
-      "created_at": "2026-02-09T16:12:43.457988Z"
-    },
-    {
-      "id": "oWG4KUrMpOw",
-      "thumbnail_url": "https://i.ytimg.com/vi/oWG4KUrMpOw/hqdefault.jpg",
-      "title": {
-        "en": "Food getting cold. What did I expect?",
-        "es": "My food's getting cold, again.",
-        "pt-BR": "My food's cold. It's fine. I don't deserve it hot."
-      },
-      "comment": {
-        "en": "It’s impressive how some creatures adapt, while I still struggle with the projector.",
-        "es": "Qué habilidad para adaptarse... Y yo, con el proyector.",
-        "pt-BR": "Bichos evoluem. Eu, com o projetor, nem tanto."
-      },
-      "category": "behavior",
-      "publish_at": "2026-02-10T18:05:00Z",
-      "created_at": "2026-02-09T16:00:32.087980Z"
     }
   ]
 }
