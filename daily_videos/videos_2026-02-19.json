@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-02-19",
   "days": 1,
-  "count": 13,
+  "count": 14,
   "videos": [
     {
       "id": "KGsKbgzlJiQ",
@@ -171,6 +171,19 @@
       "category": "habits",
       "publish_at": "2026-02-20T11:19:41.988932Z",
       "created_at": "2026-02-19T02:34:09.796006Z"
+    },
+    {
+      "id": "p3PMjgJftu4",
+      "thumbnail_url": "https://i.ytimg.com/vi/p3PMjgJftu4/hqdefault.jpg",
+      "title": {
+        "en": "The chore of endless self-editing.",
+        "es": "El eco de mis gritos al vacío.",
+        "pt-BR": "O dividendo da invisibilidade."
+      },
+      "comment": " ",
+      "category": "validation",
+      "publish_at": "2026-02-20T11:43:22.016646Z",
+      "created_at": "2026-02-19T02:39:55.765870Z"
     }
   ]
 }
