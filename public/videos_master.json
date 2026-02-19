@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-02-19",
   "days": 8,
-  "count": 72,
+  "count": 87,
   "videos": [
     {
       "id": "iYndwyLm3zI",
@@ -316,6 +316,19 @@
       "created_at": "2026-02-14T02:09:36.920308Z"
     },
     {
+      "id": "M6hoXAK8Xfk",
+      "thumbnail_url": "https://i.ytimg.com/vi/M6hoXAK8Xfk/hqdefault.jpg",
+      "title": {
+        "en": "The mastery of loneliness.",
+        "es": "Tantos planes, y la agenda vacía.",
+        "pt-BR": "A maestria da solidão."
+      },
+      "comment": " ",
+      "category": "rules",
+      "publish_at": "2026-02-20T12:51:04.291309Z",
+      "created_at": "2026-02-19T03:56:29.939070Z"
+    },
+    {
       "id": "izoA519RS-k",
       "thumbnail_url": "https://i.ytimg.com/vi/izoA519RS-k/hqdefault.jpg",
       "title": {
@@ -327,6 +340,188 @@
       "category": "unasked",
       "publish_at": "2026-02-20T11:50:00Z",
       "created_at": "2026-02-14T02:04:49.841991Z"
+    },
+    {
+      "id": "p3PMjgJftu4",
+      "thumbnail_url": "https://i.ytimg.com/vi/p3PMjgJftu4/hqdefault.jpg",
+      "title": {
+        "en": "The chore of endless self-editing.",
+        "es": "El eco de mis gritos al vacío.",
+        "pt-BR": "O dividendo da invisibilidade."
+      },
+      "comment": " ",
+      "category": "validation",
+      "publish_at": "2026-02-20T11:43:22.016646Z",
+      "created_at": "2026-02-19T02:39:55.765870Z"
+    },
+    {
+      "id": "WrVS9aKCcb4",
+      "thumbnail_url": "https://i.ytimg.com/vi/WrVS9aKCcb4/hqdefault.jpg",
+      "title": {
+        "en": "The tyranny of jacket creases.",
+        "es": "La vigilia del detalle invisible.",
+        "pt-BR": "A fadiga das entrelinhas."
+      },
+      "comment": " ",
+      "category": "unspokenrules",
+      "publish_at": "2026-02-20T11:25:41.452812Z",
+      "created_at": "2026-02-19T02:19:19.871808Z"
+    },
+    {
+      "id": "zWmB0C5EFSM",
+      "thumbnail_url": "https://i.ytimg.com/vi/zWmB0C5EFSM/hqdefault.jpg",
+      "title": {
+        "en": "The futility of raw fingertips",
+        "es": "Mis dedos en carne viva. ¿Para qué?",
+        "pt-BR": "A farsa dos dedos em carne viva."
+      },
+      "comment": " ",
+      "category": "illusion",
+      "publish_at": "2026-02-20T11:24:12.072008Z",
+      "created_at": "2026-02-19T02:25:29.660619Z"
+    },
+    {
+      "id": "u9-k9rR4Iqc",
+      "thumbnail_url": "https://i.ytimg.com/vi/u9-k9rR4Iqc/hqdefault.jpg",
+      "title": {
+        "en": "The Tyranny of Generic Platitudes",
+        "es": "La futilidad de la voz ronca.",
+        "pt-BR": "A plenitude do vazio interior."
+      },
+      "comment": " ",
+      "category": "behavior",
+      "publish_at": "2026-02-20T11:20:14.221049Z",
+      "created_at": "2026-02-19T02:30:46.170778Z"
+    },
+    {
+      "id": "ABbGWdtUoWE",
+      "thumbnail_url": "https://i.ytimg.com/vi/ABbGWdtUoWE/hqdefault.jpg",
+      "title": {
+        "en": "The ritual of peripheral observation.",
+        "es": "La condena de observar desde el margen.",
+        "pt-BR": "A Exaustão da Periferia."
+      },
+      "comment": " ",
+      "category": "habits",
+      "publish_at": "2026-02-20T11:19:41.988932Z",
+      "created_at": "2026-02-19T02:34:09.796006Z"
+    },
+    {
+      "id": "_7ZjsxX4bRA",
+      "thumbnail_url": "https://i.ytimg.com/vi/_7ZjsxX4bRA/hqdefault.jpg",
+      "title": {
+        "en": "The futility of a cold dinner.",
+        "es": "La futilidad de la cena fría",
+        "pt-BR": "O julgamento mudo do telefone."
+      },
+      "comment": " ",
+      "category": "time",
+      "publish_at": "2026-02-20T11:16:58.619295Z",
+      "created_at": "2026-02-19T02:07:47.673087Z"
+    },
+    {
+      "id": "inWFju1chkQ",
+      "thumbnail_url": "https://i.ytimg.com/vi/inWFju1chkQ/hqdefault.jpg",
+      "title": {
+        "en": "The Veracity of Exhaustion.",
+        "es": "La cuerda floja de la honestidad.",
+        "pt-BR": "A arte da verdade palatável."
+      },
+      "comment": " ",
+      "category": "unasked",
+      "publish_at": "2026-02-20T11:03:36.420705Z",
+      "created_at": "2026-02-19T02:13:18.622173Z"
+    },
+    {
+      "id": "6niCJaKzfjc",
+      "thumbnail_url": "https://i.ytimg.com/vi/6niCJaKzfjc/hqdefault.jpg",
+      "title": {
+        "en": "My brain: a bucket with a thousand holes.",
+        "es": "La tiranía del pizarrón en blanco.",
+        "pt-BR": "A farsa de 12h em tutoriais inúteis."
+      },
+      "comment": " ",
+      "category": "modernlife",
+      "publish_at": "2026-02-20T11:01:00.401023Z",
+      "created_at": "2026-02-19T01:48:49.759770Z"
+    },
+    {
+      "id": "hkDQF1RqA_Q",
+      "thumbnail_url": "https://i.ytimg.com/vi/hkDQF1RqA_Q/hqdefault.jpg",
+      "title": {
+        "en": "The Exhaustion of Imagined Rejection.",
+        "es": "La burocracia de la angustia mental.",
+        "pt-BR": "A exaustão de um não-evento."
+      },
+      "comment": " ",
+      "category": "mind",
+      "publish_at": "2026-02-20T10:54:50.250985Z",
+      "created_at": "2026-02-19T01:43:10.558331Z"
+    },
+    {
+      "id": "eI1AqKWwgHE",
+      "thumbnail_url": "https://i.ytimg.com/vi/eI1AqKWwgHE/hqdefault.jpg",
+      "title": {
+        "en": "Predictable disappointment, again.",
+        "es": "La liturgia del picnic intocado.",
+        "pt-BR": "A fadiga de correr no mesmo lugar."
+      },
+      "comment": " ",
+      "category": "suffer",
+      "publish_at": "2026-02-20T10:49:08.697305Z",
+      "created_at": "2026-02-19T02:01:36.740682Z"
+    },
+    {
+      "id": "9FPrJjOuXI8",
+      "thumbnail_url": "https://i.ytimg.com/vi/9FPrJjOuXI8/hqdefault.jpg",
+      "title": {
+        "en": "The Monument of Collecting Dust",
+        "es": "La vanidad de los apuntes polvorientos.",
+        "pt-BR": "A arquitetura do desprezo silencioso."
+      },
+      "comment": " ",
+      "category": "philosophy",
+      "publish_at": "2026-02-20T10:47:35.101027Z",
+      "created_at": "2026-02-19T01:56:19.631371Z"
+    },
+    {
+      "id": "B1jdGSIs48A",
+      "thumbnail_url": "https://i.ytimg.com/vi/B1jdGSIs48A/hqdefault.jpg",
+      "title": {
+        "en": "The Sisyphean task of significance",
+        "es": "Fingir, un arte agotador.",
+        "pt-BR": "A exaustão de fingir que importa."
+      },
+      "comment": " ",
+      "category": "meaning",
+      "publish_at": "2026-02-20T10:39:39.209674Z",
+      "created_at": "2026-02-19T01:40:13.751495Z"
+    },
+    {
+      "id": "kz3v7AF3FkA",
+      "thumbnail_url": "https://i.ytimg.com/vi/kz3v7AF3FkA/hqdefault.jpg",
+      "title": {
+        "en": "The hum of the empty screen.",
+        "es": "La tiranía de la pantalla vacía.",
+        "pt-BR": "A vigília da tela vazia."
+      },
+      "comment": " ",
+      "category": "buddhism",
+      "publish_at": "2026-02-20T10:32:41.183857Z",
+      "created_at": "2026-02-19T01:29:12.415442Z"
+    },
+    {
+      "id": "KGsKbgzlJiQ",
+      "thumbnail_url": "https://i.ytimg.com/vi/KGsKbgzlJiQ/hqdefault.jpg",
+      "title": {
+        "en": "The stagecraft of my own smile.",
+        "es": "La pantomima de sonreír.",
+        "pt-BR": "A Exaustão de Sorrisos Ensaidos"
+      },
+      "comment": " ",
+      "category": "rules",
+      "publish_at": "2026-02-20T10:12:29.174803Z",
+      "created_at": "2026-02-19T01:23:50.055686Z"
     },
     {
       "id": "eaDVh3lwQEM",
