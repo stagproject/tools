@@ -1,7 +1,7 @@
 {
   "updated_at": "2026-02-21",
   "days": 1,
-  "count": 3,
+  "count": 4,
   "videos": [
     {
       "id": "MsISRl0w3dw",
@@ -41,6 +41,19 @@
       "category": "meaning",
       "publish_at": "2026-02-22T11:16:38.648896Z",
       "created_at": "2026-02-21T02:29:22.242402Z"
+    },
+    {
+      "id": "FQxPPlPwLSU",
+      "thumbnail_url": "https://i.ytimg.com/vi/FQxPPlPwLSU/hqdefault.jpg",
+      "title": {
+        "en": "The Tyranny of Pre-emptive Defeat",
+        "es": "La tiranía del pensamiento inútil.",
+        "pt-BR": "A Glória da Derrota Prévia"
+      },
+      "comment": " ",
+      "category": "mind",
+      "publish_at": "2026-02-22T11:22:22.608088Z",
+      "created_at": "2026-02-21T02:36:20.174692Z"
     }
   ]
 }
