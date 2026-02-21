@@ -1,8 +1,190 @@
 {
-  "updated_at": "2026-02-20",
+  "updated_at": "2026-02-21",
   "days": 8,
-  "count": 15,
+  "count": 29,
   "videos": [
+    {
+      "id": "7voR4tup46k",
+      "thumbnail_url": "https://i.ytimg.com/vi/7voR4tup46k/hqdefault.jpg",
+      "title": {
+        "en": "Still waiting for that pat on the head.",
+        "es": "La tiranía de la palmada.",
+        "pt-BR": "A exaustão da audição sem fim."
+      },
+      "comment": " ",
+      "category": "validation",
+      "publish_at": "2026-02-22T12:19:58.480901Z",
+      "created_at": "2026-02-21T03:32:29.046907Z"
+    },
+    {
+      "id": "n9LaTsmAYLs",
+      "thumbnail_url": "https://i.ytimg.com/vi/n9LaTsmAYLs/hqdefault.jpg",
+      "title": {
+        "en": "The exhaustion of perpetually lying.",
+        "es": "La fatiga de mentirme a diario.",
+        "pt-BR": "A Conveniência da cegueira alheia. Exaustivo."
+      },
+      "comment": " ",
+      "category": "behavior",
+      "publish_at": "2026-02-22T12:19:32.530695Z",
+      "created_at": "2026-02-21T03:22:12.434237Z"
+    },
+    {
+      "id": "Ts_M_xSipVE",
+      "thumbnail_url": "https://i.ytimg.com/vi/Ts_M_xSipVE/hqdefault.jpg",
+      "title": {
+        "en": "The Futility of My Tail Chasing",
+        "es": "Persiguiendo mi cola social",
+        "pt-BR": "A coreografia do constrangimento."
+      },
+      "comment": " ",
+      "category": "unspokenrules",
+      "publish_at": "2026-02-22T12:17:12.197413Z",
+      "created_at": "2026-02-21T03:11:44.649901Z"
+    },
+    {
+      "id": "g4DPNP0Ju10",
+      "thumbnail_url": "https://i.ytimg.com/vi/g4DPNP0Ju10/hqdefault.jpg",
+      "title": {
+        "en": "The exhaustion of replaying pauses.",
+        "es": "La futilidad de disecar conversaciones.",
+        "pt-BR": "A tirania da pausa revivida."
+      },
+      "comment": " ",
+      "category": "unasked",
+      "publish_at": "2026-02-22T12:15:31.133055Z",
+      "created_at": "2026-02-21T03:06:02.074844Z"
+    },
+    {
+      "id": "kEE_Y6KQr4U",
+      "thumbnail_url": "https://i.ytimg.com/vi/kEE_Y6KQr4U/hqdefault.jpg",
+      "title": {
+        "en": "The Art of Pretending Interest.",
+        "es": "La fatiga de simular interés.",
+        "pt-BR": "A inércia da minha mera visão."
+      },
+      "comment": " ",
+      "category": "habits",
+      "publish_at": "2026-02-22T12:11:39.681010Z",
+      "created_at": "2026-02-21T03:27:12.362231Z"
+    },
+    {
+      "id": "OVKzMXS0Ogk",
+      "thumbnail_url": "https://i.ytimg.com/vi/OVKzMXS0Ogk/hqdefault.jpg",
+      "title": {
+        "en": "The exhaustion of running in place.",
+        "es": "La coreografía del agotamiento diario.",
+        "pt-BR": "A ilusão de ir pra frente."
+      },
+      "comment": " ",
+      "category": "illusion",
+      "publish_at": "2026-02-22T12:07:38.290360Z",
+      "created_at": "2026-02-21T03:17:07.975147Z"
+    },
+    {
+      "id": "bBbfAWmbTcU",
+      "thumbnail_url": "https://i.ytimg.com/vi/bBbfAWmbTcU/hqdefault.jpg",
+      "title": {
+        "en": "The thankless trophy of my new phone.",
+        "es": "La insuficiencia del nuevo móvil.",
+        "pt-BR": "A previsibilidade da queixa."
+      },
+      "comment": " ",
+      "category": "suffer",
+      "publish_at": "2026-02-22T11:58:32.646051Z",
+      "created_at": "2026-02-21T02:54:09.773935Z"
+    },
+    {
+      "id": "ytp4FFJPpZE",
+      "thumbnail_url": "https://i.ytimg.com/vi/ytp4FFJPpZE/hqdefault.jpg",
+      "title": {
+        "en": "The vigilance of my dissolving hopes.",
+        "es": "La miseria de un envío \"en camino\"",
+        "pt-BR": "A crueldade do 'saiu pra entrega'."
+      },
+      "comment": " ",
+      "category": "time",
+      "publish_at": "2026-02-22T11:45:22.014069Z",
+      "created_at": "2026-02-21T02:59:44.076347Z"
+    },
+    {
+      "id": "9UDU1mg3gJU",
+      "thumbnail_url": "https://i.ytimg.com/vi/9UDU1mg3gJU/hqdefault.jpg",
+      "title": {
+        "en": "The rest I get from 3 AM gym uniform.",
+        "es": "La tiranía del chándal a las 3 AM.",
+        "pt-BR": "A paz roubada por um uniforme às 3h."
+      },
+      "comment": " ",
+      "category": "modernlife",
+      "publish_at": "2026-02-22T11:41:26.170904Z",
+      "created_at": "2026-02-21T02:41:46.715571Z"
+    },
+    {
+      "id": "Uf59HdfHU48",
+      "thumbnail_url": "https://i.ytimg.com/vi/Uf59HdfHU48/hqdefault.jpg",
+      "title": {
+        "en": "The Stagecraft of My Quiet Solitude.",
+        "es": "El estudio de mi fracaso personal.",
+        "pt-BR": "A perfeição da escolha errada"
+      },
+      "comment": " ",
+      "category": "philosophy",
+      "publish_at": "2026-02-22T11:38:13.056786Z",
+      "created_at": "2026-02-21T02:47:39.825405Z"
+    },
+    {
+      "id": "FQxPPlPwLSU",
+      "thumbnail_url": "https://i.ytimg.com/vi/FQxPPlPwLSU/hqdefault.jpg",
+      "title": {
+        "en": "The Tyranny of Pre-emptive Defeat",
+        "es": "La tiranía del pensamiento inútil.",
+        "pt-BR": "A Glória da Derrota Prévia"
+      },
+      "comment": " ",
+      "category": "mind",
+      "publish_at": "2026-02-22T11:22:22.608088Z",
+      "created_at": "2026-02-21T02:36:20.174692Z"
+    },
+    {
+      "id": "f936jDHIrJ4",
+      "thumbnail_url": "https://i.ytimg.com/vi/f936jDHIrJ4/hqdefault.jpg",
+      "title": {
+        "en": "The futility of damp puppets.",
+        "es": "La patraña del títere húmedo.",
+        "pt-BR": "Grilos no palco"
+      },
+      "comment": " ",
+      "category": "buddhism",
+      "publish_at": "2026-02-22T11:20:05.132637Z",
+      "created_at": "2026-02-21T02:09:32.849728Z"
+    },
+    {
+      "id": "yFA1kLC0sBU",
+      "thumbnail_url": "https://i.ytimg.com/vi/yFA1kLC0sBU/hqdefault.jpg",
+      "title": {
+        "en": "The Absurdity of My Own Wheel",
+        "es": "La agonía de los libros a las 3 AM.",
+        "pt-BR": "A desolação das 3h da manhã."
+      },
+      "comment": " ",
+      "category": "meaning",
+      "publish_at": "2026-02-22T11:16:38.648896Z",
+      "created_at": "2026-02-21T02:29:22.242402Z"
+    },
+    {
+      "id": "MsISRl0w3dw",
+      "thumbnail_url": "https://i.ytimg.com/vi/MsISRl0w3dw/hqdefault.jpg",
+      "title": {
+        "en": "The exhaustion of required smiles.",
+        "es": "La esclavitud de la cortesía",
+        "pt-BR": "A escravidão de agradecer o óbvio."
+      },
+      "comment": " ",
+      "category": "rules",
+      "publish_at": "2026-02-22T10:47:15.319486Z",
+      "created_at": "2026-02-21T02:03:35.088462Z"
+    },
     {
       "id": "M6hoXAK8Xfk",
       "thumbnail_url": "https://i.ytimg.com/vi/M6hoXAK8Xfk/hqdefault.jpg",
