@@ -75,9 +75,16 @@ def main():
     os.makedirs(TOOLS_DAILY_DIR, exist_ok=True)
 
     # --- 作業ブランチを触る前に clean な状態を保証 ---
+# --- 作業ブランチを触る前に最新の状態に更新 ---
     run_git(["fetch", "origin"])
     run_git(["checkout", TARGET_BRANCH])
-
+    # 以下の行を追加：リモートの変更を強制的に取り込む（競合回避のため rebase 推奨）
+    try:
+        run_git(["rebase", f"origin/{TARGET_BRANCH}"])
+    except:
+        # rebaseで失敗した（競合した）場合は、一旦 abort して強制リセット
+        run_git(["rebase", "--abort"])
+        run_git(["reset", "--hard", f"origin/{TARGET_BRANCH}"])
 
     # --- JSON 読み込み ---
     new_payload = load_json_safe(src)
