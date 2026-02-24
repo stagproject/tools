@@ -1,8 +1,190 @@
 {
-  "updated_at": "2026-02-23",
+  "updated_at": "2026-02-24",
   "days": 8,
-  "count": 29,
+  "count": 43,
   "videos": [
+    {
+      "id": "koFv3XBJSJU",
+      "thumbnail_url": "https://i.ytimg.com/vi/koFv3XBJSJU/hqdefault.jpg",
+      "title": {
+        "en": "The Stagecraft of Daily Sighing",
+        "es": "Mi reflejo al pitido inútil.",
+        "pt-BR": "A tirania do suspiro vazio."
+      },
+      "comment": " ",
+      "category": "habits",
+      "publish_at": "2026-02-25T15:44:28.217584Z",
+      "created_at": "2026-02-24T04:48:53.562796Z"
+    },
+    {
+      "id": "WOy1zBPD3r4",
+      "thumbnail_url": "https://i.ytimg.com/vi/WOy1zBPD3r4/hqdefault.jpg",
+      "title": {
+        "en": "The Exhaustion of the Unending Treadmill.",
+        "es": "El sutil cansancio de existir.",
+        "pt-BR": "A esteira sem fim da aspiração vã."
+      },
+      "comment": " ",
+      "category": "philosophy",
+      "publish_at": "2026-02-25T15:02:50.290818Z",
+      "created_at": "2026-02-24T04:08:16.298158Z"
+    },
+    {
+      "id": "4QSc7MmcoIw",
+      "thumbnail_url": "https://i.ytimg.com/vi/4QSc7MmcoIw/hqdefault.jpg",
+      "title": {
+        "en": "The futility of blank stares.",
+        "es": "La tiranía de las miradas vacías.",
+        "pt-BR": "A farsa dos olhares vazios."
+      },
+      "comment": " ",
+      "category": "behavior",
+      "publish_at": "2026-02-25T15:00:38.056609Z",
+      "created_at": "2026-02-24T04:43:30.717974Z"
+    },
+    {
+      "id": "3yUZ7UfMcjc",
+      "thumbnail_url": "https://i.ytimg.com/vi/3yUZ7UfMcjc/hqdefault.jpg",
+      "title": {
+        "en": "The exhaustion of sprinting conversations.",
+        "es": "La futilidad de mis tecleos lentos.",
+        "pt-BR": "A maldição de teclar devagar."
+      },
+      "comment": " ",
+      "category": "modernlife",
+      "publish_at": "2026-02-25T14:47:27.538925Z",
+      "created_at": "2026-02-24T04:01:57.687474Z"
+    },
+    {
+      "id": "ymWNc7UjXDc",
+      "thumbnail_url": "https://i.ytimg.com/vi/ymWNc7UjXDc/hqdefault.jpg",
+      "title": {
+        "en": "Another cake-in-corner social triumph.",
+        "es": "El juicio palpable de mi pastel.",
+        "pt-BR": "Comi bolo no canto, o vazio mastigando."
+      },
+      "comment": " ",
+      "category": "unspokenrules",
+      "publish_at": "2026-02-25T13:44:10.920020Z",
+      "created_at": "2026-02-24T04:31:52.369890Z"
+    },
+    {
+      "id": "-ouMeMQUgBc",
+      "thumbnail_url": "https://i.ytimg.com/vi/-ouMeMQUgBc/hqdefault.jpg",
+      "title": {
+        "en": "My words, better when someone else says them.",
+        "es": "La poesía del auto-borrado.",
+        "pt-BR": "O desgaste da auto-anulação."
+      },
+      "comment": " ",
+      "category": "unasked",
+      "publish_at": "2026-02-25T13:14:52.356272Z",
+      "created_at": "2026-02-24T04:26:34.553072Z"
+    },
+    {
+      "id": "9bFOejGFh8c",
+      "thumbnail_url": "https://i.ytimg.com/vi/9bFOejGFh8c/hqdefault.jpg",
+      "title": {
+        "en": "Hands polished, never held.",
+        "es": "La coreografía de las manos sueltas.",
+        "pt-BR": "A glória das mãos vazias."
+      },
+      "comment": " ",
+      "category": "validation",
+      "publish_at": "2026-02-25T12:42:40.845701Z",
+      "created_at": "2026-02-24T04:52:05.283522Z"
+    },
+    {
+      "id": "djiMRDuCwxs",
+      "thumbnail_url": "https://i.ytimg.com/vi/djiMRDuCwxs/hqdefault.jpg",
+      "title": {
+        "en": "The dedication to perfectly clean chalkboards.",
+        "es": "El trote del vacío.",
+        "pt-BR": "O dom do olhar ausente."
+      },
+      "comment": " ",
+      "category": "illusion",
+      "publish_at": "2026-02-25T12:35:46.931564Z",
+      "created_at": "2026-02-24T04:38:21.617178Z"
+    },
+    {
+      "id": "CfhOQ5UO7_o",
+      "thumbnail_url": "https://i.ytimg.com/vi/CfhOQ5UO7_o/hqdefault.jpg",
+      "title": {
+        "en": "The confirmation of dull knives.",
+        "es": "La futilidad de la cirugía casera.",
+        "pt-BR": "A mecânica gasta da mente."
+      },
+      "comment": " ",
+      "category": "mind",
+      "publish_at": "2026-02-25T12:17:47.092637Z",
+      "created_at": "2026-02-24T03:56:18.294040Z"
+    },
+    {
+      "id": "hVPQ8zPU9BU",
+      "thumbnail_url": "https://i.ytimg.com/vi/hVPQ8zPU9BU/hqdefault.jpg",
+      "title": {
+        "en": "Running nowhere, faster.",
+        "es": "La tiranía de la sonrisa forzada.",
+        "pt-BR": "A exaustão do charme fabricado."
+      },
+      "comment": " ",
+      "category": "suffer",
+      "publish_at": "2026-02-25T12:16:47.708085Z",
+      "created_at": "2026-02-24T04:14:40.390698Z"
+    },
+    {
+      "id": "u43ggwEXU8s",
+      "thumbnail_url": "https://i.ytimg.com/vi/u43ggwEXU8s/hqdefault.jpg",
+      "title": {
+        "en": "Watching the phone not ring.",
+        "es": "La farsa del reloj indiferente.",
+        "pt-BR": "A paciência do telefone mudo."
+      },
+      "comment": " ",
+      "category": "time",
+      "publish_at": "2026-02-25T11:56:37.497936Z",
+      "created_at": "2026-02-24T04:21:18.651875Z"
+    },
+    {
+      "id": "qj5vy75RmQM",
+      "thumbnail_url": "https://i.ytimg.com/vi/qj5vy75RmQM/hqdefault.jpg",
+      "title": {
+        "en": "Meaning? Just more data entry.",
+        "es": "El museo de los sueños descartados.",
+        "pt-BR": "Mais um dia no meu museu de sonhos."
+      },
+      "comment": " ",
+      "category": "meaning",
+      "publish_at": "2026-02-25T11:41:22.857695Z",
+      "created_at": "2026-02-24T03:52:48.782971Z"
+    },
+    {
+      "id": "eoyNZ0QZRlE",
+      "thumbnail_url": "https://i.ytimg.com/vi/eoyNZ0QZRlE/hqdefault.jpg",
+      "title": {
+        "en": "The Philosophy of a Stiff Joint",
+        "es": "La tragicomedia del goteo.",
+        "pt-BR": "A paciência da chuva fria."
+      },
+      "comment": " ",
+      "category": "buddhism",
+      "publish_at": "2026-02-25T11:06:27.083202Z",
+      "created_at": "2026-02-24T03:40:36.189825Z"
+    },
+    {
+      "id": "GwxcUWe0s9M",
+      "thumbnail_url": "https://i.ytimg.com/vi/GwxcUWe0s9M/hqdefault.jpg",
+      "title": {
+        "en": "The Grace of Forced Smiles",
+        "es": "El teatro de las sonrisas forzadas.",
+        "pt-BR": "A fadiga de se encaixar"
+      },
+      "comment": " ",
+      "category": "rules",
+      "publish_at": "2026-02-25T10:38:46.968265Z",
+      "created_at": "2026-02-24T03:34:15.874924Z"
+    },
     {
       "id": "7voR4tup46k",
       "thumbnail_url": "https://i.ytimg.com/vi/7voR4tup46k/hqdefault.jpg",
